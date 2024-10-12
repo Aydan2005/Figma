@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 5% auto;
+}
+h1{
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    font-size: 55px;
+    margin-left: 12%;
+}
+.part1{
+    display: flex;
+    gap: 60px;
+    margin-top: 5%;
+}
+.text{
+    width: 48%;
+    margin-left: 12%;
+}
+.text p{
+    font-size: 24px;
+}
+.part2{
+    display: flex;
+    margin-left: 12%;
+    margin-top: 6%;
+    gap: 5%;
+}
+.item{
+    width: 15%;
+}
+.item h4{
+    font-size: 25px;
+    padding-top: 8vh;
+}
+.item p{
+    font-size: 18px;
+}
+@media screen and (min-width:375px) and (max-width:600px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .text , h1 , .part2{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 26px;
+        margin-left: 5%;
+    }
+    .part1 p{
+        font-size: 12px;
+    }
+    .part1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    .part1 .picture1{
+        margin: 0 auto;
+    }
+    .picture1{
+        width: 170px;
+        height: 160px;
+    }
+    .picture1 img{
+        width: 170px;
+        height: 160px;        
+    }
+    .text{
+        width: 90%;
+    }
+    .picture-div{
+        display: none;
+    }
+    .item h4{
+        font-size: 12px;
+        padding-top: 4vh;
+    }
+    .item p{
+        font-size: 10px;
+        padding-right: 10vw;
+    }
+    .part2{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 5%;
+    }
+    .item{
+        width: 34%;
+    }
+}
+@media screen and (min-width:600px) and (max-width:830px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .text , h1 , .part2{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 28px;
+        margin-left: 8%;
+    }
+    .part1 p{
+        font-size: 14px;
+    }
+    .part1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 8%;
+    }
+    .part1 .picture1{
+        margin: 0 auto;
+    }
+    .picture1{
+        width: 190px;
+        height: 180px;
+    }
+    .picture1 img{
+        width: 190px;
+        height: 180px;        
+    }
+    .text{
+        width: 90%;
+    }
+    .picture-div{
+        display: none;
+    }
+    .item h4{
+        font-size: 14px;
+        padding-top: 4vh;
+    }
+    .item p{
+        font-size: 12px;
+        padding-right: 13vw;
+    }
+    .part2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+        margin-left: 8%;
+    }
+    .item{
+        width: 34%;
+    }
+}
+@media screen and (min-width:830px) and (max-width:1100px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .text , h1 , .part2{
+        margin: 0;
+        padding: 0;
+    }    
+    h1{
+        font-size: 30px;
+        margin-left: 8%;
+    }
+    .part1 p{
+        font-size: 16px;
+    }
+    .part1{
+        display: flex;
+        margin-left: 8%;
+    }
+    .part1 .picture1{
+        margin: 0 auto;
+    }
+    .picture1{
+        width: 180px;
+        height: 170px;
+    }
+    .picture1 img{
+        width: 180px;
+        height: 170px;        
+    }
+    .text{
+        width: 60%;
+    }
+    .picture-div{
+        display: none;
+    }
+    .item h4{
+        font-size: 14px;
+        padding-top: 4vh;
+    }
+    .item p{
+        font-size: 12px;
+        padding-right: 10vw;
+    }
+    .part2{
+        display: flex;
+        gap: 0px;
+        margin-left: 8%;
+    }
+    .item{
+        width: 25%;
+    }
+}
+@media screen and (min-width:1100px) and (max-width:1400px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .text , h1 , .part2{
+        margin: 0;
+        padding: 0;
+    }    
+    h1{
+        font-size: 32px;
+        margin-left: 8%;
+    }
+    .part1 p{
+        font-size: 18px;
+    }
+    .part1{
+        display: flex;
+        margin-left: 8%;
+    }
+    .part1 .picture1{
+        margin: 0 auto;
+    }
+    .picture1{
+        width: 180px;
+        height: 170px;
+    }
+    .picture1 img{
+        width: 180px;
+        height: 170px;        
+    }
+    .text{
+        width: 50%;
+    }
+    .picture-div{
+        display: none;
+    }
+    .item h4{
+        font-size: 16px;
+        padding-top: 4vh;
+    }
+    .item p{
+        font-size: 14px;
+        padding-right: 10vw;
+    }
+    .part2{
+        display: flex;
+        gap: 0px;
+        margin-left: 8%;
+    }
+    .item{
+        width: 25%;
+    }
+}
